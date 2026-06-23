@@ -6,8 +6,8 @@
     "name": "PartMeAI",
     "email": "partmeai@gmail.com"
   },
-  "homepage": "https://github.com/full-statck-skills/devops-skills",
-  "repository": "https://github.com/full-statck-skills/devops-skills",
+  "homepage": "https://github.com/full-stack-skills/devops-skills",
+  "repository": "https://github.com/full-stack-skills/devops-skills",
   "source": "./",
   "skills": [
     "./skills/ansible",
