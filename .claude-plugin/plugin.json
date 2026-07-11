@@ -15,6 +15,9 @@
     "./skills/github-actions",
     "./skills/gitlab-ci",
     "./skills/kubernetes",
+    "./skills/linuxmirrors-awesome",
+    "./skills/linuxmirrors-os",
+    "./skills/linuxmirrors-docker",
     "./skills/terraform"
   ]
 }

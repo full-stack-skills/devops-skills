@@ -24,7 +24,7 @@
 
 **DevOps 技能** 是一组 AI 编码智能体技能，属于 [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) 生态，由 [PartMe.AI](https://github.com/partme-ai) 维护。
 
-本包包含 **6 个技能**。每个技能是一个独立的 `SKILL.md` 文件，AI 智能体按需加载。
+本包包含 **9 个技能**。每个技能是一个可按需加载的独立 Agent Skill。
 
 ## 📦 安装
 
@@ -38,7 +38,7 @@ npx skills add full-stack-skills/devops-skills
 npx skills add full-stack-skills/devops-skills --skill <skill-name>
 ```
 
-## 🎯 技能列表 (6)
+## 🎯 技能列表 (9)
 
 | 技能 | 描述 |
 |------|------|
@@ -47,6 +47,9 @@ npx skills add full-stack-skills/devops-skills --skill <skill-name>
 | `github-actions` | Provides comprehensive guidance for GitHub Actions including workflow creation, actions, secrets, and automation. Use... |
 | `gitlab-ci` | Provides comprehensive guidance for GitLab CI/CD including pipeline configuration, runners, artifacts, and automation... |
 | `kubernetes` | Provides comprehensive guidance for Kubernetes including pods, services, deployments, ingress, and cluster management... |
+| `linuxmirrors-awesome` | 介绍 LinuxMirrors 的能力、边界、兼容性、源码结构以及最新权威资料核验方法。 |
+| `linuxmirrors-os` | 指导 GNU/Linux 系统软件源安全更换，覆盖预检、自动化、验证、排障与回滚。 |
+| `linuxmirrors-docker` | 指导 Docker Engine 安装、Docker CE 换源、Registry Mirror 配置、验证与回滚。 |
 | `terraform` | Provides comprehensive guidance for Terraform including infrastructure as code, providers, modules, and state managem... |
 
 ## 🤖 支持的智能体

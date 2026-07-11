@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-`devops-skills` is a curated collection of 6 Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai). Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+`devops-skills` is a curated collection of 9 Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai). Each skill is loaded on demand.
 
-## Skills (6)
+## Skills (9)
 
 | Skill | Domain |
 |-------|--------|
@@ -13,6 +13,9 @@
 | `github-actions` | GitHub CI/CD — workflows, actions, secrets, matrix builds |
 | `gitlab-ci` | GitLab CI/CD — pipelines, runners, artifacts, environments |
 | `kubernetes` | Container orchestration — pods, deployments, services, ingress |
+| `linuxmirrors-awesome` | LinuxMirrors overview, source-backed research, compatibility, and task routing |
+| `linuxmirrors-os` | GNU/Linux package mirror switching, validation, troubleshooting, and rollback |
+| `linuxmirrors-docker` | Docker Engine installation, Docker CE mirrors, Registry Mirrors, and rollback |
 | `terraform` | Multi-cloud IaC — providers, modules, state, workspaces |
 
 ## Directory Structure
@@ -25,6 +28,9 @@ devops-skills/
 │   ├── github-actions/SKILL.md + LICENSE.txt
 │   ├── gitlab-ci/SKILL.md + LICENSE.txt
 │   ├── kubernetes/SKILL.md + LICENSE.txt
+│   ├── linuxmirrors-awesome/SKILL.md + agents/ + references/ + examples/
+│   ├── linuxmirrors-os/SKILL.md + agents/ + references/ + examples/
+│   ├── linuxmirrors-docker/SKILL.md + agents/ + references/ + examples/
 │   └── terraform/SKILL.md + LICENSE.txt
 ├── .claude-plugin/plugin.json          # Plugin manifest — name, version, skill paths
 ├── README.md / README.zh-CN.md         # Bilingual project docs
@@ -47,6 +53,10 @@ Rules:
 - Body content is bilingual: section headers in English, bullet content in Chinese
 - Each skill gets its own directory with `SKILL.md` + `LICENSE.txt`
 - New skills must be registered in `.claude-plugin/plugin.json` under `skills[]`
+
+### LinuxMirrors skill family exception
+
+The three `linuxmirrors-*` skills use the current Agent Skills progressive-disclosure layout: concise workflow instructions in `SKILL.md`, UI metadata in `agents/openai.yaml`, source-backed detail in `references/`, and end-to-end scenarios in `examples/`. Their `SKILL.md` files may exceed the legacy 30-line limit but must remain below 150 lines; frontmatter contains only `name` and `description`.
 
 ## Key Files
 

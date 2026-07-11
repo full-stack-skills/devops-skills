@@ -24,7 +24,7 @@ English | [简体中文](./README.zh-CN.md)
 
 **DevOps Skills** is a curated collection of Agent Skills for AI coding agents, part of the [Full Stack Skills](https://github.com/partme-ai/full-stack-skills) ecosystem maintained by [PartMe.AI](https://github.com/partme-ai).
 
-This package includes **6 skills**. Each skill is a self-contained `SKILL.md` file that AI agents load on-demand.
+This package includes **9 skills**. Each skill is a self-contained Agent Skill that AI agents load on-demand.
 
 ## 📦 Install
 
@@ -38,7 +38,7 @@ Or install specific skills:
 npx skills add full-stack-skills/devops-skills --skill <skill-name>
 ```
 
-## 🎯 Skills (6)
+## 🎯 Skills (9)
 
 | Skill | Description |
 |-------|-------------|
@@ -47,6 +47,9 @@ npx skills add full-stack-skills/devops-skills --skill <skill-name>
 | `github-actions` | Provides comprehensive guidance for GitHub Actions including workflow creation, actions, secrets, and automation. Use... |
 | `gitlab-ci` | Provides comprehensive guidance for GitLab CI/CD including pipeline configuration, runners, artifacts, and automation... |
 | `kubernetes` | Provides comprehensive guidance for Kubernetes including pods, services, deployments, ingress, and cluster management... |
+| `linuxmirrors-awesome` | Explains LinuxMirrors capabilities, boundaries, compatibility, source layout, and how to verify current official information. |
+| `linuxmirrors-os` | Plans safe GNU/Linux package mirror switching with preflight checks, automation, validation, troubleshooting, and rollback. |
+| `linuxmirrors-docker` | Plans Docker Engine installation, Docker CE mirror switching, Registry Mirror configuration, validation, and rollback. |
 | `terraform` | Provides comprehensive guidance for Terraform including infrastructure as code, providers, modules, and state managem... |
 
 ## 🤖 Supported Agents
