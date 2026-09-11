@@ -1,7 +1,7 @@
 ---
 name: kubernetes
 description: Provides comprehensive guidance for Kubernetes including pods, services, deployments, ingress, and cluster management. Use when the user asks about Kubernetes, needs to deploy applications to Kubernetes, configure Kubernetes resources, or manage Kubernetes clusters.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

@@ -1,5 +1,6 @@
 ---
 name: linuxmirrors-docker
+license: Apache-2.0
 description: 为 Linux 主机规划 LinuxMirrors Docker Engine 安装、Docker CE 软件源更换和 Docker Registry Mirror 配置，覆盖版本选择、已有安装、仅换 Registry、多镜像地址、daemon.json 合并、服务验证与回滚。用户提到 docker.sh、DockerInstallation.sh、Docker 拉取加速或 `--only-registry` 时使用；普通系统软件源更换不使用本技能。
 ---
 

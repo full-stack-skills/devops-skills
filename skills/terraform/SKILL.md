@@ -1,7 +1,7 @@
 ---
 name: terraform
 description: Provides comprehensive guidance for Terraform including infrastructure as code, providers, modules, and state management. Use when the user asks about Terraform, needs to create infrastructure as code, manage cloud resources with Terraform, or implement IaC best practices.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

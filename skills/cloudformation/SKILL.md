@@ -1,7 +1,7 @@
 ---
 name: cloudformation
 description: Provides comprehensive guidance for AWS CloudFormation including templates, stacks, parameters, and infrastructure automation. Use when the user asks about CloudFormation, needs to create AWS infrastructure as code, manage CloudFormation stacks, or implement AWS IaC best practices.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

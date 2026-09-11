@@ -1,7 +1,7 @@
 ---
 name: gitlab-ci
 description: Provides comprehensive guidance for GitLab CI/CD including pipeline configuration, runners, artifacts, and automation. Use when the user asks about GitLab CI, needs to create GitLab pipelines, configure CI/CD workflows, or automate deployments with GitLab.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill

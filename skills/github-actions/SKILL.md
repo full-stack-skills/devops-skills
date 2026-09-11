@@ -1,7 +1,7 @@
 ---
 name: github-actions
 description: Provides comprehensive guidance for GitHub Actions including workflow creation, actions, secrets, and automation. Use when the user asks about GitHub Actions, needs to create GitHub workflows, automate GitHub processes, or configure CI/CD with GitHub Actions.
-license: Complete terms in LICENSE.txt
+license: Apache-2.0
 ---
 
 ## When to use this skill
